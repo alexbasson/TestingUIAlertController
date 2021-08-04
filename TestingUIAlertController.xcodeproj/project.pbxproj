@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,8 +13,18 @@
 		5107AB6D263B40BF00E3442B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5107AB6B263B40BF00E3442B /* Main.storyboard */; };
 		5107AB6F263B40C100E3442B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5107AB6E263B40C100E3442B /* Assets.xcassets */; };
 		5107AB72263B40C100E3442B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5107AB70263B40C100E3442B /* LaunchScreen.storyboard */; };
-		5107AB7D263B40C100E3442B /* TestingUIAlertControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5107AB7C263B40C100E3442B /* TestingUIAlertControllerTests.swift */; };
 		5107AB88263B40C100E3442B /* TestingUIAlertControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5107AB87263B40C100E3442B /* TestingUIAlertControllerUITests.swift */; };
+		5107AB9A263B410D00E3442B /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 5107AB99263B410D00E3442B /* Quick */; };
+		5107ABA0263B413000E3442B /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 5107AB9F263B413000E3442B /* Nimble */; };
+		5107ABA5263B415200E3442B /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5107ABA4263B415200E3442B /* ViewControllerTest.swift */; };
+		513E18EF26B83DF7002C7A36 /* RootSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E18EE26B83DF7002C7A36 /* RootSwiftUIView.swift */; };
+		513E18F126B83FFC002C7A36 /* SwiftUIHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E18F026B83FFC002C7A36 /* SwiftUIHostingController.swift */; };
+		513E18F426B8472D002C7A36 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 513E18F326B8472D002C7A36 /* ViewInspector */; };
+		513E18F626B8474C002C7A36 /* RootSwiftUIViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E18F526B8474C002C7A36 /* RootSwiftUIViewTest.swift */; };
+		513E18F826B849A3002C7A36 /* ViewInspectorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E18F726B849A3002C7A36 /* ViewInspectorAlert.swift */; };
+		5156076026BAE7FA003117BA /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156075F26BAE7FA003117BA /* PlaceholderViewController.swift */; };
+		5156076226BAE82B003117BA /* PlaceholderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5156076126BAE82B003117BA /* PlaceholderViewController.xib */; };
+		5156076426BAE8FB003117BA /* QuickSpec+ViewInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5156076326BAE8FB003117BA /* QuickSpec+ViewInspector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +54,18 @@
 		5107AB71263B40C100E3442B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5107AB73263B40C100E3442B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5107AB78263B40C100E3442B /* TestingUIAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingUIAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5107AB7C263B40C100E3442B /* TestingUIAlertControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUIAlertControllerTests.swift; sourceTree = "<group>"; };
 		5107AB7E263B40C100E3442B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5107AB83263B40C100E3442B /* TestingUIAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingUIAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5107AB87263B40C100E3442B /* TestingUIAlertControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUIAlertControllerUITests.swift; sourceTree = "<group>"; };
 		5107AB89263B40C100E3442B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5107ABA4263B415200E3442B /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
+		513E18EE26B83DF7002C7A36 /* RootSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSwiftUIView.swift; sourceTree = "<group>"; };
+		513E18F026B83FFC002C7A36 /* SwiftUIHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHostingController.swift; sourceTree = "<group>"; };
+		513E18F526B8474C002C7A36 /* RootSwiftUIViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootSwiftUIViewTest.swift; sourceTree = "<group>"; };
+		513E18F726B849A3002C7A36 /* ViewInspectorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInspectorAlert.swift; sourceTree = "<group>"; };
+		5156075F26BAE7FA003117BA /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
+		5156076126BAE82B003117BA /* PlaceholderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceholderViewController.xib; sourceTree = "<group>"; };
+		5156076326BAE8FB003117BA /* QuickSpec+ViewInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuickSpec+ViewInspector.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5107AB9A263B410D00E3442B /* Quick in Frameworks */,
+				5107ABA0263B413000E3442B /* Nimble in Frameworks */,
+				513E18F426B8472D002C7A36 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +126,11 @@
 				5107AB6E263B40C100E3442B /* Assets.xcassets */,
 				5107AB70263B40C100E3442B /* LaunchScreen.storyboard */,
 				5107AB73263B40C100E3442B /* Info.plist */,
+				513E18EE26B83DF7002C7A36 /* RootSwiftUIView.swift */,
+				513E18F026B83FFC002C7A36 /* SwiftUIHostingController.swift */,
+				513E18F726B849A3002C7A36 /* ViewInspectorAlert.swift */,
+				5156075F26BAE7FA003117BA /* PlaceholderViewController.swift */,
+				5156076126BAE82B003117BA /* PlaceholderViewController.xib */,
 			);
 			path = TestingUIAlertController;
 			sourceTree = "<group>";
@@ -113,8 +138,10 @@
 		5107AB7B263B40C100E3442B /* TestingUIAlertControllerTests */ = {
 			isa = PBXGroup;
 			children = (
-				5107AB7C263B40C100E3442B /* TestingUIAlertControllerTests.swift */,
 				5107AB7E263B40C100E3442B /* Info.plist */,
+				5107ABA4263B415200E3442B /* ViewControllerTest.swift */,
+				513E18F526B8474C002C7A36 /* RootSwiftUIViewTest.swift */,
+				5156076326BAE8FB003117BA /* QuickSpec+ViewInspector.swift */,
 			);
 			path = TestingUIAlertControllerTests;
 			sourceTree = "<group>";
@@ -162,6 +189,11 @@
 				5107AB7A263B40C100E3442B /* PBXTargetDependency */,
 			);
 			name = TestingUIAlertControllerTests;
+			packageProductDependencies = (
+				5107AB99263B410D00E3442B /* Quick */,
+				5107AB9F263B413000E3442B /* Nimble */,
+				513E18F326B8472D002C7A36 /* ViewInspector */,
+			);
 			productName = TestingUIAlertControllerTests;
 			productReference = 5107AB78263B40C100E3442B /* TestingUIAlertControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +247,11 @@
 				Base,
 			);
 			mainGroup = 5107AB59263B40BF00E3442B;
+			packageReferences = (
+				5107AB98263B410D00E3442B /* XCRemoteSwiftPackageReference "Quick" */,
+				5107AB9E263B413000E3442B /* XCRemoteSwiftPackageReference "Nimble" */,
+				513E18F226B8472D002C7A36 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
 			productRefGroup = 5107AB63263B40BF00E3442B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5156076226BAE82B003117BA /* PlaceholderViewController.xib in Resources */,
 				5107AB72263B40C100E3442B /* LaunchScreen.storyboard in Resources */,
 				5107AB6F263B40C100E3442B /* Assets.xcassets in Resources */,
 				5107AB6D263B40BF00E3442B /* Main.storyboard in Resources */,
@@ -260,6 +298,10 @@
 			files = (
 				5107AB6A263B40BF00E3442B /* ViewController.swift in Sources */,
 				5107AB66263B40BF00E3442B /* AppDelegate.swift in Sources */,
+				513E18F126B83FFC002C7A36 /* SwiftUIHostingController.swift in Sources */,
+				513E18F826B849A3002C7A36 /* ViewInspectorAlert.swift in Sources */,
+				5156076026BAE7FA003117BA /* PlaceholderViewController.swift in Sources */,
+				513E18EF26B83DF7002C7A36 /* RootSwiftUIView.swift in Sources */,
 				5107AB68263B40BF00E3442B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +310,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5107AB7D263B40C100E3442B /* TestingUIAlertControllerTests.swift in Sources */,
+				5156076426BAE8FB003117BA /* QuickSpec+ViewInspector.swift in Sources */,
+				513E18F626B8474C002C7A36 /* RootSwiftUIViewTest.swift in Sources */,
+				5107ABA5263B415200E3442B /* ViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +631,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5107AB98263B410D00E3442B /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+		5107AB9E263B413000E3442B /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.1;
+			};
+		};
+		513E18F226B8472D002C7A36 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5107AB99263B410D00E3442B /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5107AB98263B410D00E3442B /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		5107AB9F263B413000E3442B /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5107AB9E263B413000E3442B /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		513E18F326B8472D002C7A36 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 513E18F226B8472D002C7A36 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5107AB5A263B40BF00E3442B /* Project object */;
 }
