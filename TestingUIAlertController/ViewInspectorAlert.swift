@@ -1,7 +1,7 @@
 import SwiftUI
 
 extension View {
-    func alert2(isPresented: Binding<Bool>, content: @escaping () -> Alert) -> some View {
+    func inspectableAlert(isPresented: Binding<Bool>, content: @escaping () -> Alert) -> some View {
         return self.modifier(InspectableAlert(isPresented: isPresented, alertBuilder: content))
     }
 }

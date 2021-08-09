@@ -18,7 +18,7 @@ struct RootSwiftUIView: View, DidAppearable {
             }) {
                 Text("Show Alert")
             }
-            .alert2(isPresented: $showingAlert) {
+            .inspectableAlert(isPresented: $showingAlert) {
                 Alert(
                     title: Text("Important message"),
                     message: Text("Wear sunscreen"),
